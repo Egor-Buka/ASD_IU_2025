@@ -1,4 +1,6 @@
-public class RedBlackTree {
+package redblacktree;
+
+public class AlgorithmRedBlackTree {
     private Node root;
     private static final boolean RED = true;
     private static final boolean BLACK = false;
@@ -294,27 +296,10 @@ public class RedBlackTree {
                 System.out.print("L----");
                 indent += "|    ";
             }
-
             String color = node.color == RED ? "RED" : "BLACK";
             System.out.println(node.data + "(" + color + ")");
             printHelper(node.left, indent, false);
             printHelper(node.right, indent, true);
         }
-    }
-
-    public static void main(String[] args) {
-        RedBlackTree tree = new RedBlackTree();
-
-        int[] values = {10, 20, 30, 15, 25, 5, 1};
-        for (int v : values) tree.insert(v);
-
-        System.out.println("Исходное дерево:");
-        tree.printTree();
-        System.out.println("\nКоличество элементов: " + tree.countNodes());
-
-        tree.delete(20);
-        System.out.println("\nПосле удаления 20:");
-        tree.printTree();
-        System.out.println("\nКоличество элементов: " + tree.countNodes());
     }
 }

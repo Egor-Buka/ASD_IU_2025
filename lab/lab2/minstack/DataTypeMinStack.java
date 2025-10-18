@@ -1,12 +1,14 @@
 //Реализовать «Стек с минимумом» (Min Stack). Прокомментировать логику.
 
+package minstack;
+
 import java.util.Stack;
 
-public class MinStack {
+public class DataTypeMinStack {
     private Stack<Integer> mainStack; //основной стэк
     private Stack<Integer> minStack; //вспомогательный
 
-    public MinStack() {
+    public DataTypeMinStack() {
         mainStack = new Stack<>();
         minStack = new Stack<>();
     }
@@ -46,19 +48,4 @@ public class MinStack {
     public boolean isEmpty() { //проверка стэка на пустоту
         return mainStack.isEmpty();
     }
-
-    public static void main(String[] args){
-        MinStack stack = new MinStack();
-        stack.push(5);
-        stack.push(3);
-        stack.push(7);
-        stack.push(2);
-        stack.push(4);
-        System.out.println(stack.getMin()); //2
-        stack.pop(); //убрали 4
-        System.out.println("Минимум после 1 удаления: " + stack.getMin()); //2
-        stack.pop(); //убрали 2
-        System.out.println("Минимум после 2 удалений: " + stack.getMin()); //3
-    }
-
 }
