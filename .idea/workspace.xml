@@ -4,11 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97fab5f4-96f3-43c1-861d-48b9186fd255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab/lab3/inversion/Inversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/lab3/inversion/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/lab3/mostcommonelement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab/lab3/mostcommonelement/MostCommonElement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +22,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
     "git-widget-placeholder": "bukagv__3",
     "onboarding.tips.debug.path": "C:/Users/Егорчик/Documents/GitHub/ASD_IU_2025/src/Main.java",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
